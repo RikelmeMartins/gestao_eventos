@@ -9,7 +9,7 @@ Sistema web para organizar eventos acadêmicos (semanas acadêmicas, congressos,
 ## 📋 Funcionalidades
 
 - [x] Estrutura inicial do backend (API REST) e do frontend
-- [ ] CRUD de eventos
+- [x] CRUD de eventos
 - [ ] Cadastro e login de usuários (JWT)
 - [ ] Cadastro de atividades (palestras, minicursos, oficinas)
 - [ ] Inscrição em eventos e atividades com controle de vagas
