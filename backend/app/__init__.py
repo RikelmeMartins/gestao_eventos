@@ -24,6 +24,9 @@ def create_app(config_class=None):
     app.register_blueprint(usuarios_bp)
 
     registrar_erros(app)
+
+    from .commands import registrar_comandos
+    registrar_comandos(app)
     return app
 
 
