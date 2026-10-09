@@ -19,7 +19,9 @@ def create_app(config_class=None):
 
     from . import models  # garante que as tabelas sejam registradas
     from .routes.eventos import bp as eventos_bp
+    from .routes.usuario import bp as usuarios_bp
     app.register_blueprint(eventos_bp)
+    app.register_blueprint(usuarios_bp)
 
     registrar_erros(app)
     return app
